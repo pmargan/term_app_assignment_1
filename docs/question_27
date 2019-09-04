@@ -1,0 +1,4 @@
+9.	How do you add a background color for all <h1> elements?
+ 	A.	all.h1 {background-color:#FFFFFF}
+ 	B.	h1.all {background-color:#FFFFFF}
+ 	C.	h1 {background-color:#FFFFFF}

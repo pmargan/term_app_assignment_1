@@ -1,0 +1,11 @@
+9. What is the output of the given code?
+counter = 1
+while counter < 11
+  puts counter
+  counter = counter + 1
+end
+
+a) Prints the number from 1 to 10
+b) Prints the number from 1 to 11
+c) Prints the number from 2 to 10
+d) Infinite loop

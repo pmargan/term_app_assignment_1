@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 1%;
+    background-color: whitesmoke;
+  }
+  #container>h1 {
+    padding: .75rem;
+    text-align: center;
+    font-size: 3rem;
+    color: navy;
+} 
+  #container {    
+    position: relative;
+    margin-left: 20px;
+    background-color: lightblue;
+    text-align: justify;
+    padding: .75rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    width: 90%;
+    height: auto;
+    align-self: auto;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+  } 

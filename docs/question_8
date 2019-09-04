@@ -1,0 +1,5 @@
+8. Why can't we use quotation marks (‘ or “) with boolean?
+a) It indicates that we are talking about a string
+b) It indicates that we are assining a value
+c) It indicates that that we are replacing boolean data type with string data type
+d) None of the mentioned
