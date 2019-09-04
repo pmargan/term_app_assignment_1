@@ -2,9 +2,8 @@
 
 def leader_board
   h = Hash[*File.read('./leaderboard').split(/[, \n]+/)]
-  h.sort_by { |_k, v| }.reverse
-  # leaderboard.sort_by { |k, v| }
-  # leaderboard.sort_by { |k, v| -v }
-  puts h
+  myhash = Hash[h.sort_by { |_k, v| v }.reverse].first(5)
+  puts 'TOP 5 SCORES ON LEADERBOARD'
+  puts myhash
 end
 leader_board

@@ -7,7 +7,7 @@ require_relative './player'
 class Quiz
   include Rules
 
-  def initialize   
+  def initialize
     show_rules
     @welcome = "Welcome Developer, you ready to play?\n Enter 'yes' or 'no'"
     puts @welcome
@@ -17,7 +17,6 @@ class Quiz
       exit
     else
       @play = Player.new.name
-      #TODO add player name to list of players
       questions = Questions.new
       questions.start
     end
