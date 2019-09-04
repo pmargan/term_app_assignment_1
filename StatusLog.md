@@ -1,0 +1,2 @@
+## Status log Sep 4, 2019 13:50
+Have created Questions class, successfuly can import multiple choice questions from the question text files. Show them using a loop giving feedback to the user as to answers are correct or not.
