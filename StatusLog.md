@@ -17,3 +17,6 @@ Having trouble getting the sort to work at this stage.
 Empty class at this stage.
 will end up holding score values and update score method
 and interact with leaderboard to update leaderboard when player achieves high score.
+
+## created Module (Rules) 
+which impliments a method to launch default browser and open the 'rules' html page for quizit game.

@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
-require 'launchy'
-def show_rules
-  uri = './docs/rules.html'
-  Launchy.open(uri) # do |exception|
-  # puts "Attempted to open #{uri} and failed because #{exception}"
-  # end
+# method to launch rules page in default browser
+module Rules
+  def show_rules
+    uri = './docs/rules.html'
+    err = '2> /dev/null'
+    system "xdg-open #{uri} #{err}"
+  end
 end
