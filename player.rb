@@ -6,6 +6,4 @@ class Player
     puts 'Enter your name'
     @player = gets.chomp.downcase
   end
-  name
 end
-

@@ -11,8 +11,8 @@ class Questions
       question = File.readlines("./docs/question_#{q}")
       puts question
       input = gets.downcase
-      puts input == answer ? 'You got it right!' : 'Nope'
-      sleep(1)
+      puts input == answer ? 'You got it right!' : 'Nope, incorrect!'
+      sleep(1.25)
       system 'clear'
       # TODO: do stuff to scores
       q += 1

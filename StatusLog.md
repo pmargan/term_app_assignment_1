@@ -20,3 +20,6 @@ and interact with leaderboard to update leaderboard when player achieves high sc
 
 ## created Module (Rules) 
 which impliments a method to launch default browser and open the 'rules' html page for quizit game.
+
+## created TDD Unit test for Player class
+Test passed for player class with no errors
