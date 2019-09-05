@@ -9,8 +9,9 @@ class QuestionsTest < Test::Unit::TestCase
     @quest = Questions.new
   end
 
-  def test_
-    assert_equal()
+  def test_start # testing output of method start in Questions class
+    @quest_start_output = @quest.start
+    assert_equal('Thanks for playing', @quest_start_output)
   end
 end
 # grrr don't know how to do this test!

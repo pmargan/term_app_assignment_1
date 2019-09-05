@@ -26,3 +26,7 @@ Test passed for player class with no errors
 
 ## added flow chart
 Added the flow chart I drew for quizit game
+
+## added two gems to project
+uploaded Gemfile and Gemfile.lock (for Artii & Colorize)
+

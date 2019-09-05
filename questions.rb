@@ -3,6 +3,7 @@
 # class to get quetions for quiz
 class Questions
   def start
+
     answers = File.readlines('./docs/answers')
     @score = 0
     q = 1
@@ -14,11 +15,12 @@ class Questions
       input = gets.downcase
       @score += 1 if input == answer
       puts input == answer ? 'You got it right!' : 'Nope, incorrect!'
-      puts "#{@score}/27"
+      puts "Your score:#{@score}. Currently on Question #{q}/27"
       sleep(1)
       system 'clear'
-      puts @score if q == 27
+      puts "Your score is: #{@score}" if q >= 27
       q += 1
     end
+    return 'Thanks for playing'
   end
 end

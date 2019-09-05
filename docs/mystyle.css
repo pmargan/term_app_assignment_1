@@ -22,5 +22,8 @@ body {
     align-self: auto;
     font-size: 1.8rem;
     font-weight: bold;
-
   } 
+  #minimise {
+    font-size: 2rem;
+    color: blueviolet
+  }
