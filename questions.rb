@@ -38,6 +38,7 @@ class Questions
       puts "Your score is: #{@score}" if q >= 27
       q += 1
     end
+    # Game ends
     'Thanks for playing'
   end
 end
