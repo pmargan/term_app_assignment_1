@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'artii'
+require 'colorize'
 require_relative './leaderboard'
 require_relative './rules'
 require_relative './questions'
@@ -12,11 +14,13 @@ class Quiz
   def initialize
     show_rules
     sleep(2)
+    a = Artii::Base.new
+    puts a.asciify('QUIZIT').colorize(:green)
     @welcome = "Welcome Developer, you ready to play?\n Enter 'yes' or 'no'"
     puts @welcome
     yn = gets.chomp.downcase
     if yn != 'yes'
-      puts 'Okay goodbye for now'
+      puts 'Okay goodbye for now'.colorize(:green)
       exit
     else
       @play = Player.new.name

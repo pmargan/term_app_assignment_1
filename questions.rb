@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
+require 'colorize'
 # class to get quetions for quiz
 class Questions
   def start
-
     answers = File.readlines('./docs/answers')
     @score = 0
     q = 1
@@ -14,13 +14,13 @@ class Questions
       puts question
       input = gets.downcase
       @score += 1 if input == answer
-      puts input == answer ? 'You got it right!' : 'Nope, incorrect!'
-      puts "Your score:#{@score}. Currently on Question #{q}/27"
+      puts input == answer ? 'You got it right!'.colorize(:green) : 'Nope, incorrect!'.colorize(:red)
+      puts "Your score:#{@score}. Currently on Question #{q}/27".colorize(:yellow)
       sleep(1)
       system 'clear'
       puts "Your score is: #{@score}" if q >= 27
       q += 1
     end
-    return 'Thanks for playing'
+    'Thanks for playing'
   end
 end

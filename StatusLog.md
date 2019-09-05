@@ -24,6 +24,9 @@ which impliments a method to launch default browser and open the 'rules' html pa
 ## created TDD Unit test for Player class
 Test passed for player class with no errors
 
+## Created TDD Unit test for Questions class
+Test passed for questions class
+
 ## added flow chart
 Added the flow chart I drew for quizit game
 
