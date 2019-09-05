@@ -6,4 +6,3 @@ def leader_board
   puts 'TOP 5 SCORES ON LEADERBOARD'
   puts myhash
 end
-leader_board
