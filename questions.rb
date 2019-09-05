@@ -10,7 +10,9 @@ class Questions
     @score = 0
     # set value of q(question)
     q = 1
-    puts "answers: #{answers}"
+    # debug show answer array to find why getting wrong answer
+    # when variable 'a' appears correct.
+    #puts "answers: #{answers}"
     while q <= 27
       # Use a to access the 0-indexed array, and q to refer to the question
       a = q - 1
