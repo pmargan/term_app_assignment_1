@@ -120,8 +120,9 @@ In the start, I used DIA open source diagramming application to map out user inp
 The key difficulty I faced was zero previous experience in TDD so creating Tests was very chalenging, But managed to get two test units done and passing. Albeit later in the dev cycle than I would have liked.
 
 ## Project Timeline 
+[timeline](https://github.com/pmargan/term_app_assignment_1/tree/master/docs/screenshots)
 
-Planning, research and conceptualising the code structure was primarily achieved in one afternoon sitting by prototyping using DIA. The coding was an iterative process between 2nd Sept to 5th Sept.
+Planning, research and conceptualising the code structure was primarily achieved in one day by prototyping using DIA. The coding was an iterative process between 2nd Sept to 5th Sept. See picture of the timeline @ link above.
 
 ## Testing
 
