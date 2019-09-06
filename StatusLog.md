@@ -33,3 +33,8 @@ Added the flow chart I drew for quizit game
 ## added two gems to project
 uploaded Gemfile and Gemfile.lock (for Artii & Colorize)
 
+## added comments
+added comments to classes and modules.
+
+
+
